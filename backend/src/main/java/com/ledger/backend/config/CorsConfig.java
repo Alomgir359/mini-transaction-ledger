@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * Allows the frontend (running on a different origin/port, e.g. the Vite
+ * Allows the frontend (running on a different origin/port,
  * dev server on :5173 or the nginx container on :80) to call this API.
  */
 @Configuration

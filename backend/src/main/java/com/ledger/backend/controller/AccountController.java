@@ -20,7 +20,7 @@ public class AccountController {
         this.accountService = accountService;
     }
 
-    /** POST /api/accounts - create a new account with a zero starting balance */
+    /** POST /api/accounts - create a new account with a zero  balance */
     @PostMapping
     public ResponseEntity<AccountResponse> createAccount(@Valid @RequestBody AccountRequest request) {
         AccountResponse response = accountService.createAccount(request);
