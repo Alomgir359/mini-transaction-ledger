@@ -104,8 +104,8 @@ function App() {
 
       <header className="bg-red-900">
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center gap-4">
-          <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-brand to-brand-orange flex items-center justify-center flex-shrink-0 shadow-md">
-            <span className="text-white font-black text-xl italic">M</span>
+          <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-red-700 to-red-800 flex items-center justify-center flex-shrink-0 shadow-md">
+            <span className="text-white font-black text-3xl italic">M</span>
           </div>
           <div>
             <h1 className="text-xl font-bold text-white tracking-tight">
