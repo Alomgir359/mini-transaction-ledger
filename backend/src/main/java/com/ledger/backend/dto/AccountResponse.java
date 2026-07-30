@@ -6,11 +6,7 @@ import com.ledger.backend.entity.AccountType;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * What we send back to the client for an account - deliberately separate
- * from the JPA entity so we never leak persistence internals (e.g. the
- * lazy transactions collection) through the API.
- */
+
 public class AccountResponse {
 
     private Long id;
